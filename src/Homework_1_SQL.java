@@ -44,7 +44,7 @@ public class Homework_1_SQL {
           //WHERE  Price >= 20
 
     //Задача 2. Вывести страны поставщиков.
-//    SELECT Country
+//    SELECT DISTINCT Country
 //    FROM [Suppliers]
 
     //Задача 3. В упорядоченном по стоимости виде вывести название и стоимость товаров от всех поставщиков,
