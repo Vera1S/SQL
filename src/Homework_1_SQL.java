@@ -63,7 +63,7 @@ public class Homework_1_SQL {
     //Задача 5. Вывести два самых дорогих товара из категории 4
     //SELECT *
     //FROM [Products]
-    //WHERE CategoryID = 5
+    //WHERE CategoryID = 4
     //ORDER BY Price DESC
     //LIMIT 2
     //
