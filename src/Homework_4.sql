@@ -38,7 +38,6 @@ WHERE
     Price > 50
 
 Вывести список стран, которые поставляют морепродукты
-
 SELECT
 Suppliers.Country,
 Categories.CategoryName = Seafood
@@ -47,3 +46,5 @@ LEFT JOIN Categories ON Products.CategoryID = Categories.CategoryID
 LEFT JOIN Suppliers ON Products.SupplierID=Suppliers.SupplierID
 
 Очистить поле ContactName у всех клиентов не из China
+DELETE FROM Customers
+WHERE Country = China
